@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "TopUp",
+    "slug": "topup",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "be.kvtech.topup",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "018d56b1-ba09-4453-a7dc-800ab10ace7d"
+      }
+    },
+    "owner": "kevinvelle"
+  }
+}

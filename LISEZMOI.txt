@@ -1,0 +1,16 @@
+TopUp – build Android (APK de test)
+
+Prérequis : Node.js installé (https://nodejs.org, version LTS) et ton compte Expo.
+
+1. Ouvre PowerShell dans ce dossier (Maj + clic droit dans le dossier > « Ouvrir dans le terminal »).
+2. Tape :  powershell -ExecutionPolicy Bypass -File .\setup.ps1
+3. Quand « eas login » le demande, entre ton e-mail et ton mot de passe Expo.
+4. Le build tourne sur les serveurs d'Expo (10 à 20 min). À la fin, un lien et un QR code
+   s'affichent : scanne-le avec ton téléphone Android pour installer l'APK.
+   Le build est aussi visible sur expo.dev > ton projet > Builds.
+
+Contenu :
+- App.js        : l'application (affiche le prototype TopUp, ouvre les liens dans le navigateur)
+- topupHtml.js  : le prototype TopUp (version du 28/08/2026)
+- eas.json      : profils de build (preview = APK à installer, production = AAB pour le Play Store)
+- setup.ps1     : crée le projet et lance le build
